@@ -169,6 +169,7 @@ include_directories(
 add_executable(amcl_3d_node 
 src/node.cpp
 src/mcl.cpp
+src/xorshift128.cpp
 )
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
